@@ -6,14 +6,14 @@ tablets: 768px até 992px
 desktops: 992px - 1200px
 grandes telas: acima de 1200px
 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     i#burguer {
         display: none;
     }
     menu {
         display: block;
     }
-    menu ul li {
+    menu ul li a{
         display: inline-block;
     }
     

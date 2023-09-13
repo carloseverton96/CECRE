@@ -55,14 +55,19 @@ i#burguer:hover {
         list-style-type: none;
         width: 80vw;
         margin: auto;
+      
     }
     
+    menu ul li {
+        display: block;
+    }
+
     menu ul li a {
         display: block;
         padding: 10px;
         text-align: center;
         text-decoration: none;
-        background-color: #4D92DF;
+        background-color: #4d92df;
         border-top: 2px solid black;
         }
     menu ul li a:hover {
@@ -120,5 +125,119 @@ section#redes-sociais img:hover {
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transition: transform 0.3s, border 1s;
+}
+}
+
+
+@media screen and (min-width: 768px) {
+    i#burguer {
+        display: block;
+        cursor: pointer;
+        margin: auto;
+        color: #412a00;
+        width: auto;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5s;
+        
+        margin:auto;
+    }
+    i#burguer a:hover{
+        cursor: pointer;
+    }
+    menu {
+        display: none;
+       cursor: pointer;
+        margin: auto;
+    }
+    menu ul li {
+        display: inline-block;
+       
+    }
+    
+   
+    /*a seguir o que for igual ao de @media celular*/
+    *{  
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        
+    }
+    body, html{
+        background-image: linear-gradient(to right, #a9c9ee, #03588C);
+        width: 100vw;
+        height: 100vh;
+    }
+    header{
+        
+        text-align: center;
+    }
+    header img{
+        display: block;
+        margin: auto;
+    }
+    
+    section#redes-sociais{
+        text-align: right;
+    }
+    
+    section#redes-sociais img {
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.400);
+        display: inline-block;
+        text-align: center;
+    }
+    
+    section#redes-sociais img:hover {
+    
+        border: 2px solid rgba(255, 255, 255, 0.637);
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+        transition: transform 0.3s, border 1s;
+    }
+    menu ul li a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #4D92DF;
+        border-top: 2px solid black;
+        }
+    menu ul li a:hover {
+        background-color: rgb(47, 231, 231);
+    }
+    menu ul li {
+        margin: auto;
+    }
+    menu a{
+        color: #412a00;
+        width: auto;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5s;
+        background-color: #4d92df;
+        margin:auto;
+        
+        
+    }
+        menu a:hover{
+            background-color: #6F9C43;
+            color: #000029;
+    }
+main{
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(163, 89, 45, 0.616);
+    width: 80vw; 
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    
+
 }
 }
