@@ -6,11 +6,17 @@ tablets: 600px até 768px
 desktops: 992px - 1200px
 grandes telas: acima de 1200px*/
 
+
+    
+
+
 *{  
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
+    
 }
 body, html{
     background-image: linear-gradient(to right, #a9c9ee, #03588C);
@@ -18,60 +24,59 @@ body, html{
     height: 100vh;
 }
 header{
-    margin:auto;
+    
     text-align: center;
 }
 header img{
     display: block;
     margin: auto;
 }
-
+ menu{
+  
+        display: none;
+    }
 i#burguer {
         width: 80vw;
         background-color: #7daadf;
         color: white;
         display: block;
         text-align: center;
-       
-        cursor: black;
+        cursor: pointer;
         margin: auto;
         border-radius:  10px 10px 0px 0px;
+        padding: 10px;
 }
 i#burguer:hover {
         background-color: white;
         color: black;
     }
+   
     menu ul{
         list-style-type: none;
-    }
-    menu{
-        background-color: #4D92DF;
-        padding: 10px;
-        margin: auto;
-        box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.192);
         width: 80vw;
-        border-radius:  0px 0px 0px 0px;
+        margin: auto;
     }
+    
     menu ul li a {
         display: block;
         padding: 10px;
         text-align: center;
         text-decoration: none;
         background-color: #4D92DF;
-        
+        border-top: 2px solid black;
         }
     menu ul li a:hover {
-        background-color: rgb(128, 128, 128);
+        background-color: rgb(47, 231, 231);
     }
     menu a{
         color: #000041;
-        padding: 10px;
+        
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5s;
-        margin: 5px;
-        display: block;
+       
+        
     }
         menu a:hover{
             background-color: #6F9C43;
@@ -106,7 +111,7 @@ section#redes-sociais img {
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.400);
     display: inline-block;
-    text-align: left;
+    text-align: center;
 }
 
 section#redes-sociais img:hover {
@@ -116,4 +121,3 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transition: transform 0.3s, border 1s;
 }
-  
