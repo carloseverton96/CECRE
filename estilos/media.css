@@ -6,7 +6,6 @@ tablets: 768px até 992px
 desktops: 992px - 1200px
 grandes telas: acima de 1200px
 */
-
 @media screen and (min-width: 768px) {
     i#burguer {
         display: none;
@@ -19,7 +18,8 @@ grandes telas: acima de 1200px
     }
     
     main {
-    width: 76px;
+    width: 768px;
     background-color: black;
 }
+
 }
