@@ -49,13 +49,14 @@ i#burguer {
 i#burguer:hover {
         background-color: white;
         color: black;
+        
     }
    
     menu ul{
         list-style-type: none;
         width: 80vw;
         margin: auto;
-      
+        
     }
     
     menu ul li {
@@ -71,10 +72,10 @@ i#burguer:hover {
         border-top: 2px solid black;
         }
     menu ul li a:hover {
-        background-color: rgb(47, 231, 231);
+        background-color: rgb(231, 84, 47);
     }
     menu a{
-        color: #000041;
+        color: #411f00;
         
         border-radius: 5px;
         text-decoration: none;
@@ -136,13 +137,16 @@ section#redes-sociais img:hover {
         cursor: pointer;
         margin: auto;
         color: #412a00;
-        width: auto;
-        border-radius: 5px;
+        width: 80vw;
+        border-radius: 5px 5px 0px 0px;
         text-decoration: none;
         font-weight: bold;
-        transition-duration: 0.5s;
-        
+        transition-duration: 0.0s;
+        background-color: #4D92DF; /*cor do menu fechado*/
         margin:auto;
+    }
+    i#burguer:hover{
+        background-color: white;
     }
     i#burguer a:hover{
         cursor: pointer;
@@ -151,6 +155,9 @@ section#redes-sociais img:hover {
         display: none;
        cursor: pointer;
         margin: auto;
+        background-color: #4D92DF; /*cor do menu aberto*/
+        border-radius: 0px;
+        width: 80vw;
     }
     menu ul li {
         display: inline-block;
@@ -237,8 +244,6 @@ main{
     width: 80vw; 
     text-align: center;
     padding: 10px;
-    margin: auto;
-    
-
+    margin: auto; 
 }
 }

@@ -9,17 +9,22 @@ grandes telas: acima de 1200px
 @media screen and (min-width: 769px) {
     i#burguer {
         display: none;
+
     }
     menu {
         display: block;
+       
     }
     menu ul li a{
         display: inline-block;
+       
     }
     
     main {
     width: 768px;
     background-color: black;
+    
 }
+
 
 }
