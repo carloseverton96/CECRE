@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.section {
+    width: 90%;
+    height: 40vh;
+    background-color: #EF5354;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    
+}
+  
+.one,
+.three {
+    background-color: #E03B8B;
+}
+  
+.nav {
+    width: 90%;
+    height: 40vh;
+    background-color: #3944F7;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    place-items: center;
+    margin: auto;
+}
+  
+.btn {
+    color: white;
+    background-color: #38CC77;
+    height: 40px;
+    width: 90px;
+    padding: 2px;
+    border: 2px solid black;
+    text-decoration: none;
+}
