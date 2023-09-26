@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 768px) {
 * {
     margin: 0;
     padding: 0;
@@ -8,45 +9,138 @@
 body {
     width: 100vw;
     height: 100vh;
+    
 }
 
 .section {
     width: 90%;
-    height: 40vh;
-    background-color: #EF5354;
-    font-size: 50px;
-    color: white;
-    text-align: center;
+    height: auto;
+    background-color: #ebf6ff;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
     margin: auto;
-    
+        
+}
+.section, .impar, .par p{
+    text-indent: 3em; /*recuo de parágrafo*/
 }
   
-.one,
-.three {
-    background-color: #E03B8B;
+.impar {
+    background-color: #dfedff;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+padding-right: 25%;
+}
+.par {
+    padding-left: 25%;
 }
   
 .nav {
     width: 90%;
-    height: 40vh;
+    height: auto;
     background-color: #3944F7;
-    font-size: x-large;
-    color: white;
-    text-align: center;
+    font-size: 0.5em;
+    color: rgb(0, 0, 0);
+    text-align: justify;
     margin: auto;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     place-items: center;
     margin: auto;
+    position: auto;
 }
   
 .btn {
     color: white;
-    background-color: #38CC77;
-    height: 40px;
-    width: 90px;
-    padding: 2px;
+    background-color: #4666cf;
+    height: 50px;
+    width: 200px;
+    padding: 6px;
     border: 2px solid black;
     text-decoration: none;
+    margin: center center;
+    font-size: auto;
+    font-size: 13px;
+    
+}
+
+.btn:hover {
+    background-color: #3944F7;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+      
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .section {
+        width: 90%;
+        height: auto;
+        background-color: #ebf6ff;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        margin: auto;
+            
+    }
+    .section, .impar, .par p{
+        text-indent: 3em; /*recuo de parágrafo*/
+    }
+      
+    .impar {
+        background-color: #dfedff;
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    padding-right: 25%;
+    }
+    .par {
+        padding-left: 25%;
+    }
+    .nav {
+        width: 90%;
+        height: 45px;
+        background-color: #4666cf;
+        font-size: 2.0em;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: auto;
+       
+        display: inline-block;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+        
+        
+      
+    .btn {
+        color: rgb(255, 255, 255);
+       
+        height: 80vw;
+        width: 500px;
+        border-bottom: 1px solid black;
+        justify-content: space-between;
+        text-decoration: none;
+        margin: center;
+        font-size: 20px;
+        
+        
+    }
+    
+    .btn:hover {
+        background-color: #36c7f3;
+        color: black;
+        border-radius: 5px;
+        }
+
 }
