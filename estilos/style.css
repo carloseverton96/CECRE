@@ -88,6 +88,13 @@ i#burguer:hover {
             background-color: #6F9C43;
             color: #000029;
     }
+
+picture img {
+    width: 80vh;
+    height: auto;
+}
+
+
 main{
     background-color: white;
     box-shadow: 5px 5px 15px rgba(163, 89, 45, 0.616);
@@ -110,10 +117,11 @@ p{
 
 section#redes-sociais{
     text-align: right;
+    position: fixed;
 }
 
 section#redes-sociais img {
-    width: 50px;
+    width: 30px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.400);
@@ -131,7 +139,11 @@ section#redes-sociais img:hover {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
     i#burguer {
         display: block;
         cursor: pointer;
@@ -190,6 +202,7 @@ section#redes-sociais img:hover {
     
     section#redes-sociais{
         text-align: right;
+        position: fixed;
     }
     
     section#redes-sociais img {
@@ -238,6 +251,10 @@ section#redes-sociais img:hover {
             background-color: #6F9C43;
             color: #000029;
     }
+    picture img {
+        width: 80vh;
+        height: auto;
+    }
 main{
     background-color: white;
     box-shadow: 5px 5px 15px rgba(163, 89, 45, 0.616);
@@ -246,4 +263,5 @@ main{
     padding: 10px;
     margin: auto; 
 }
+
 }

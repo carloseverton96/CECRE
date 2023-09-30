@@ -70,6 +70,27 @@ padding-right: 25%;
 .btn:hover {
     background-color: #3944F7;
     }
+    section#redes-sociais{
+        text-align: right;
+        position: fixed;
+    }
+    
+    section#redes-sociais img {
+        width: 30px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.400);
+        display: inline-block;
+        text-align: center;
+    }
+    
+    section#redes-sociais img:hover {
+    
+        border: 2px solid rgba(255, 255, 255, 0.637);
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+        transition: transform 0.3s, border 1s;
+    }
 }
 
 
@@ -142,5 +163,25 @@ padding-right: 25%;
         color: black;
         border-radius: 5px;
         }
-
+        section#redes-sociais{
+            text-align: right;
+            position: fixed;
+        }
+        
+        section#redes-sociais img {
+            width: 30px;
+            margin: 10px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.400);
+            display: inline-block;
+            text-align: center;
+        }
+        
+        section#redes-sociais img:hover {
+        
+            border: 2px solid rgba(255, 255, 255, 0.637);
+            transform: translate(-3px, -3px);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+            transition: transform 0.3s, border 1s;
+        }
 }
