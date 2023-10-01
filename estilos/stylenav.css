@@ -16,7 +16,7 @@ body {
     width: 90%;
     height: auto;
     background-color: #ebf6ff;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(0, 0, 0);
     text-align: justify;
     margin: auto;
@@ -132,7 +132,7 @@ padding-right: 25%;
         width: 90%;
         height: 45px;
         background-color: #4666cf;
-        font-size: 2.0em;
+        font-size: 1.5em;
         color: rgb(255, 255, 255);
         text-align: center;
         margin: auto;

@@ -105,14 +105,38 @@ main{
     
 
 }
+/* para modificar o texto:*/
 h1{color: #000041;
 text-align: center;
-text-shadow: 1px 1px 2px  rgba(129, 77, 5, 0.726)
+text-shadow: 1px 1px 2px  rgba(129, 77, 5, 0.726);
+font-size: 2em;
+margin: auto;
 }
-h2{color: #03588C;}
+h2{color: #03588C;
+    font-size: 1em;
+    text-align: left;
+    margin: 10px;
+}
 p{
-    text-align: center justify;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 50px;
+    margin: 10px;
 }
+h3  {
+    text-align: center;
+    margin: 10px;
+    font-size: 1em;
+}
+
+li {font-size: 0.9em;
+}
+
+.biblioteca {
+    background-color: #dfeeff;
+}
+    
+
 
 
 section#redes-sociais{
@@ -263,5 +287,33 @@ main{
     padding: 10px;
     margin: auto; 
 }
-
+/* para modificar o texto:*/
+h1{color: #000041;
+    text-align: center;
+    text-shadow: 1px 1px 2px  rgba(129, 77, 5, 0.726);
+    font-size: 2em;
+    margin: auto;
+    }
+    h2{color: #03588C;
+        font-size: 1em;
+        text-align: left;
+        margin: 10px;
+    }
+    p{
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 50px;
+        margin: 10px;
+    }
+    h3  {
+        text-align: center;
+        margin: 10px;
+        font-size: 1em;
+    }
+    
+    li {font-size: 0.9em;}
+    
+    .biblioteca {
+        background-color: #dfeeff;
+    }
 }
