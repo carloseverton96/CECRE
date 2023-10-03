@@ -53,7 +53,7 @@ i#burguer:hover {
     }
    
     menu ul{
-        list-style-type: none;
+        list-style-type: circle;
         width: 80vw;
         margin: auto;
         
@@ -160,6 +160,15 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transition: transform 0.3s, border 1s;
 }
+/*página 02*/
+section.container {
+    border: 2px solid;
+    border-radius: 5px;
+    display: inline-block;
+    justify-content: space-between;
+    }
+
+
 }
 
 
@@ -316,4 +325,13 @@ h1{color: #000041;
     .biblioteca {
         background-color: #dfeeff;
     }
+/*página 02*/
+    section.container {
+        border: 2px solid;
+        border-radius: 5px;
+        display: inline-block;
+        justify-content: space-between;
+        }
+    
+        
 }

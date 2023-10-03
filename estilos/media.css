@@ -38,4 +38,12 @@ picture img {
     width: 80vh;
     height: auto;
 }
+/*página 02*/
+section.container {
+    border: 2px solid;
+    border-radius: 5px;
+    display: inline-block;
+    justify-content: space-between;
+    }
+
 }

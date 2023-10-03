@@ -184,4 +184,11 @@ padding-right: 25%;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
             transition: transform 0.3s, border 1s;
         }
+        /*página 02*/
+    section.container {
+        border: 2px solid;
+        border-radius: 5px;
+        display: inline-block;
+        justify-content: space-between;
+        }
 }
