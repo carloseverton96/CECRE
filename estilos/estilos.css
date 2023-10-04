@@ -23,7 +23,7 @@ body main{
     height: 200px;
     transform-style: preserve-3d;
     transition: 1.5s;
-    transform: perspective(600px) rotateY(0deg);
+    transform: perspective(1000px) rotateY(0deg);
 }
 .box span {
     position: absolute;
@@ -55,7 +55,7 @@ body main{
     position: relative;
     width: 60px;
     height: 60px;
-    border: 2px solid #13c7df;
+    border: 2px solid #1996a7;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -70,8 +70,8 @@ body main{
     position: absolute;
     width: 15px;
     height: 15px;
-    border-top: 3px solid #fff;
-    border-right: 3px solid #fff;
+    border-top: 3px solid #640303;
+    border-right: 3px solid #640303;
     transform: rotate(45deg) translate(-2.5px, 2.5px);
 }
 .btns .btn.prev::before {
