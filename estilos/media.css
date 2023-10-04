@@ -45,5 +45,7 @@ section.container {
     display: inline-block;
     justify-content: space-between;
     }
-
+    li{
+        text-align: justify;
+    }
 }

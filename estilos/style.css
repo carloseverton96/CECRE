@@ -168,7 +168,9 @@ section.container {
     justify-content: space-between;
     }
 
-
+li{
+    text-align: justify;
+}
 }
 
 
@@ -333,5 +335,7 @@ h1{color: #000041;
         justify-content: space-between;
         }
     
-        
+        li{
+            text-align: justify;
+        }        
 }
