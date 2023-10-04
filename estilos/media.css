@@ -31,7 +31,7 @@ grandes telas: acima de 1200px
 }
 section#redes-sociais{
     text-align: right;
-    position: fixed;
+    position: relative;
     
 }
 picture img {
