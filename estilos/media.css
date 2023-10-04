@@ -23,7 +23,14 @@ grandes telas: acima de 1200px
         display: inline-block;
        
     }
-    
+    header{
+        
+        text-align: center;
+    }
+    header img{
+        display: block;
+        margin: auto;
+    } 
     main {
     width: 768px;
     background-color: black;
