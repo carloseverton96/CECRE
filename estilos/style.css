@@ -137,7 +137,11 @@ li {font-size: 0.9em;
 }
     
 
-
+.evangelho{
+    display: flex;
+    position: relative;
+align-items: center;
+}
 
 section#redes-sociais{
     text-align: right;
